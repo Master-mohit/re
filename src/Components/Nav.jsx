@@ -13,6 +13,7 @@ const Nav = () => {
       <Link to='/shop'><h1>Shop</h1></Link>
       <Link to='/usestate'><h1>Usestate</h1></Link>
       <Link to='/props'><h1>Props</h1></Link>
+      <Link to='/context'><h1>Context</h1></Link>
     </div>
   </div>
   )

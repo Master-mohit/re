@@ -5,6 +5,7 @@ import About from './About'
 import Shop from './Shop'
 import Usestate from './Usestate'
 import PropsD from './PropsD'
+import Context from './Context'
 
 const Routerrrr = () => {
   return (
@@ -15,6 +16,7 @@ const Routerrrr = () => {
         <Route path='/shop' Component={Shop}/>
         <Route path='/usestate' Component={Usestate}/>
         <Route path='/props' Component={PropsD}/>
+        <Route path='/context' Component={Context}/>
       </Routes>
     </div>
   )
