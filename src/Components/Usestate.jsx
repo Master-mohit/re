@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useEffect, useState } from 'react'; 
 // Importing React and useState. useState is a Hook used to manage state in functional components.
 
 const Usestate = () => { 
@@ -13,6 +13,11 @@ const Usestate = () => {
         setcount(count + 1); 
         // Updates the state by adding 1 to the current value of 'count'.
     };
+
+    useEffect(() => {
+       console.log("count update");
+    }, [count])
+    
 
     return (
         <div className='w-full h-full flex items-center justify-center bg-black'> 
